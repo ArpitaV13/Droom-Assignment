@@ -6,7 +6,6 @@ import Music from '../images/Music.png';
 import Badshah from "../images/Badhshah.png"
 import BadshahName from '../images/BadshanName.png'
 import Brands from '../images/Brands.png'
-import Landingpage3 from "./landingpage3";
 
 export default function LandingPage2() {
   return (

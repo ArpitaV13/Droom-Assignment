@@ -15,25 +15,25 @@ export default function LandingPage() {
       <div className="flex-none">
         <ul className="menu menu-horizontal px-4 text-l">
           <li>
-            <a>Celebrating 10 years</a>
+            <a href="https://droom.in/">Celebrating 10 years</a>
           </li>
           <li>
-            <a>Achievements</a>
+            <a href="https://droom.in/">Achievements</a>
           </li>
           <li>
-            <a>Chief guests</a>
+            <a href="https://droom.in/">Chief guests</a>
           </li>
           <li>
-            <a>Supply Chain</a>
+            <a href="https://droom.in/">Supply Chain</a>
           </li>
           <li>
-            <a>Partners & Sponsors</a>
+            <a href="https://droom.in/">Partners & Sponsors</a>
           </li>
           <li>
-            <a>Brand Recognition</a>
+            <a href="https://droom.in/">Brand Recognition</a>
           </li>
           <li>
-            <a>Contact Us</a>
+            <a href="https://droom.in/">Contact Us</a>
           </li>
         </ul>
       </div>
