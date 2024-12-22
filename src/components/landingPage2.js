@@ -22,9 +22,18 @@ export default function LandingPage2() {
             src={CEO}
             className="absolute inset-0 w-full h-full opacity-90"
             alt="CEO"
-            style={{ transform: "translateY(20%)" }}
+            style={{ transform: "translateY(10%)" }}
           />
-          <div className="absolute inset-0 bg-gradient-to-b to-black opacity-70"></div>
+          <div className="absolute inset-0 bg-gradient-to-b to-black opacity-70" style={{ transform: "translateY(10%)",background:'linear-gradient(0deg, #031926 16%, transparent 32%)' }}/>
+          <button className="absolute bg-[#FDF4E3] rounded-lg left-[10%] bottom-[5%] px-8 py-2">
+            <span className="text-2xl text-gray-600  ">
+              Sandeep Aggarwal
+            </span>
+            <span className="text-sm text-gray-400 text-left" >
+              <br />
+              Founder & CEO, Droom
+            </span>
+          </button>
         </div>
         <div className=" text-left col-span-2 p-6 text-white ">
           <span className="text-5xl font-bold text-color" style={{ color: "#FDD778" }}>
@@ -42,15 +51,15 @@ export default function LandingPage2() {
           <img src={Invitation} className="mt-3" />
         </div>
       </div>
-      <div className="mt-10 relative">
+      <div className="mt-10 relative mb-80">
         <img src={Music} />
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid grid-cols-2 gap-4 items-center absolute -top-[8%]">
           <div>
             <h1 className="text-xl tracking-wide" style={{ color: "#FDD778" }}>Special Guest for the Night</h1>
             <img src={BadshahName} />
           </div>
           <div>
-          <img src={Badshah}
+          <img src={Badshah} className="scale-75"
           alt="Badshah"  />
           </div>
         </div>    
@@ -59,8 +68,9 @@ export default function LandingPage2() {
       <span className="text-5xl font-bold txt-center" style={{ color: "#FDD778" }}>
             Droom Brand Recognition
       </span>
-      <img src={Brands} 
-      className="mt-10"/>
+      <div className="mt-10">
+      <img src={Brands} className="mt-10"/>
+      </div>
       </div>
     </div>
   );
