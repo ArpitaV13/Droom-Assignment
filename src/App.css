@@ -44,7 +44,6 @@ body::-webkit-scrollbar {
   padding-top: 20px;
   color: white;
   position: absolute; /* Sticks to the top */
-  width: 100vw;
   top: 0;
   z-index: 10;
 }
