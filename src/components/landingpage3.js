@@ -1,8 +1,5 @@
 import React from 'react'
 import Sky from '../images/Sky.png'
-import Human from '../images/Human.png';
-import Cars from '../images/Cars.png';
-import Cars2 from '../images/Cars2.png';
 import monitor from '../images/monitor.svg';
 import Carousel from './corousel';
 

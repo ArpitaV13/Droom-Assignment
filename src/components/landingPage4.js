@@ -66,20 +66,60 @@ export default function landingPage4() {
         </div>
         <div className="mt-10 relative">
           <img src={Ten} className=" w-full transform scale-75 "/>
-          <div className="absolute top-[25%] left-[2%] ">
+          <div className="absolute top-[10%] left-[33%] ">
+            <span className="text-[#FDD778] text-4xl mt-1 ">200Mn+</span>
+            <br/>
+            <span className="text-lg text-white">Traffic (Per Year)</span>
+          </div>
+          <div className="absolute top-[3%] left-[51%] ">
+            <span className="text-[#FDD778] text-4xl mt-1 ">16Mn+</span>
+            <br/>
+            <span className="text-lg text-white">Traffic (Per Month)</span>
+          </div>
+          <div className="absolute top-[10%] right-[9%] ">
+            <span className="text-[#FDD778] text-4xl mt-1 ">16.2Mn+</span>
+            <br/>
+            <span className="text-lg text-white">App Downloads</span>
+          </div>
+          <div className="absolute top-[45%] left-[2%] ">
+            <span className="text-[#FDD778] text-4xl mt-1 ">$7.4Bn+</span>
+            <br/>
+            <span className="text-lg text-white">Listed GMV</span>
+          </div>
+          <div className="absolute top-[45%] right-[2%] ">
+            <span className="text-[#FDD778] text-4xl mt-1 ">1174+</span>
+            <br/>
+            <span className="text-lg text-white">No. of Cities</span>
+          </div>
+          <div className="absolute top-[25%] left-[4%] ">
             <span className="text-[#FDD778] text-4xl mt-1 ">250k+</span>
             <br/>
             <span className="text-lg text-white">Listing</span>
           </div>
           <div className="absolute top-[45%] left-[2%] ">
-            <span className="text-[#FDD778] text-4xl mt-1 ">250k+</span>
+            <span className="text-[#FDD778] text-4xl mt-1 ">$7.4Bn+</span>
             <br/>
-            <span className="text-lg text-white">Listing</span>
+            <span className="text-lg text-white">Listed GMV</span>
           </div>
-          <div className="absolute top-[65%] left-[2%] ">
-            <span className="text-[#FDD778] text-4xl mt-1 ">250k+</span>
+          <div className="absolute top-[68%] left-[4%] ">
+            <span className="text-[#FDD778] text-4xl mt-1 ">354k+</span>
             <br/>
-            <span className="text-lg text-white">Listing</span>
+            <span className="text-lg text-white">Dealers</span>
+          </div>
+          <div className="absolute top-[85%] left-[33%] ">
+            <span className="text-[#FDD778] text-4xl mt-1 ">7Mn+</span>
+            <br/>
+            <span className="text-lg text-white">Social Media Followers</span>
+          </div>
+          <div className="absolute top-[89%] left-[55%] ">
+            <span className="text-[#FDD778] text-4xl mt-1 ">582+</span>
+            <br/>
+            <span className="text-lg text-white">Vehicle Sold</span>
+          </div>
+          <div className="absolute top-[85%] right-[12%] ">
+            <span className="text-[#FDD778] text-4xl mt-1 ">$7.4Bn+</span>
+            <br/>
+            <span className="text-lg text-white">GMV</span>
           </div>
         </div>
       </div>
