@@ -90,6 +90,19 @@ body::-webkit-scrollbar {
 .App-link {
   color: #61dafb;
 }
+.swiper-slide {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.swiper-slide-active {
+  transform: scale(1.1); 
+}
+
+.swiper-slide-next,
+.swiper-slide-prev {
+  opacity: 0.7;
+}
+
 
 @keyframes App-logo-spin {
   from {

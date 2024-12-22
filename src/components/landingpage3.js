@@ -4,6 +4,7 @@ import Human from '../images/Human.png';
 import Cars from '../images/Cars.png';
 import Cars2 from '../images/Cars2.png';
 import monitor from '../images/monitor.svg';
+import Carousel from './corousel';
 
 export default function Landingpage3() {
   return (
@@ -19,13 +20,7 @@ export default function Landingpage3() {
         <p className='max-w-[50%] text-center mx-auto mt-5'>Over the past decade, Droom has achieved extraordinary milestones, from revolutionizing the automotive industry to becoming a household name. Here’s a look at some of our standout achievements:</p>
     </div> 
     <div className='grid grid-cols-2 mt-10'>
-        <div>
-            <h2 className="card card-compact flex-1" style={{ color: "#FDD778" }}>Top Stories</h2>
-            {/* <img src={Human} />
-            <img src={Cars} />
-            <img src={Cars2} /> */}
-
-        </div>
+        <Carousel />
         <div>
             <h2 style={{ color: "#FDD778" }}>Top Highlights</h2>
             <div className='card compact bg-[#084061] bg-opacity-80 text-white p-4'>
