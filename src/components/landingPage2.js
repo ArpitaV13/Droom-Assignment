@@ -48,15 +48,15 @@ export default function LandingPage2() {
             past decade, we've redefined the market and empowered millions with
             innovative technology and services.
           </p>
-          <img src={Invitation} className="mt-3" />
+          <img src={Invitation} alt='dummy' className="mt-3" />
         </div>
       </div>
       <div className="mt-10 relative mb-80">
-        <img src={Music} />
+        <img src={Music} alt='dummy' />
         <div className="grid grid-cols-2 gap-4 items-center absolute -top-[8%]">
           <div>
             <h1 className="text-xl tracking-wide" style={{ color: "#FDD778" }}>Special Guest for the Night</h1>
-            <img src={BadshahName} />
+            <img src={BadshahName} alt='dummy' />
           </div>
           <div>
           <img src={Badshah} className="scale-75"
@@ -69,7 +69,7 @@ export default function LandingPage2() {
             Droom Brand Recognition
       </span>
       <div className="mt-10">
-      <img src={Brands} className="mt-10"/>
+      <img src={Brands} alt='dummy' className="mt-10"/>
       </div>
       </div>
     </div>

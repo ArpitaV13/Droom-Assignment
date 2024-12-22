@@ -6,6 +6,7 @@ export default function LandingPage() {
     <div className="bg-center relative w-full h-full">   
     <img src={backgroundImage1}
     className="h-full w-full object-cover"
+    alt='dummy'
     />
     <div className="navbar bg-transparent text-white">
       <div className="flex-1">

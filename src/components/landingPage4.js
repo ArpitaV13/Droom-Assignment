@@ -26,46 +26,46 @@ export default function landingPage4() {
         </span>
         <div className="mt-10 grid grid-cols-6 gap-4">
           <div className="border border-gray-500 rounded-lg aspect-square p-3 flex items-center justify-center">
-            <img src={Uber} />
+            <img src={Uber} alt='dummy' />
           </div>
           <div className="border border-gray-500 rounded-lg aspect-square p-3 flex items-center justify-center">
-            <img src={TheTimesGroup} />
+            <img src={TheTimesGroup} alt='dummy'/>
           </div>
           <div className="border border-gray-500 rounded-lg aspect-square p-3 flex items-center justify-center">
-            <img src={Fastrack} />
+            <img src={Fastrack} alt='dummy' />
           </div>
           <div className="border border-gray-500 rounded-lg aspect-square p-3 flex items-center justify-center">
-            <img src={TheManCompany} />
+            <img src={TheManCompany} alt='dummy' />
           </div>
           <div className="border border-gray-500 rounded-lg aspect-square p-3 flex items-center justify-center">
-            <img src={StandardChartered} />
+            <img src={StandardChartered} alt='dummy' />
           </div>
           <div className="border border-gray-500 rounded-lg aspect-square p-3 flex items-center justify-center">
-            <img src={Roadies} />
+            <img src={Roadies} alt='dummy' />
           </div>
         </div>
         <div className="mt-10 grid grid-cols-6 gap-4">
           <div className="border border-gray-500 rounded-lg aspect-square p-3 flex items-center justify-center">
-            <img src={LoveAajKal} />
+            <img src={LoveAajKal} alt='dummy' />
           </div>
           <div className="border border-gray-500 rounded-lg aspect-square p-3 flex items-center justify-center">
-            <img src={Pioneer} />
+            <img src={Pioneer} alt='dummy'/>
           </div>
           <div className="border border-gray-500 rounded-lg aspect-square p-3 flex items-center justify-center">
-            <img src={Kotak} />
+            <img src={Kotak} alt='dummy' />
           </div>
           <div className="border border-gray-500 rounded-lg aspect-square p-3 flex items-center justify-center">
-            <img src={DBS} />
+            <img src={DBS} alt='dummy' />
           </div>
           <div className="border border-gray-500 rounded-lg aspect-square p-3 flex items-center justify-center">
-            <img src={TataCapital} />
+            <img src={TataCapital} alt='dummy' />
           </div>
           <div className="border border-gray-500 rounded-lg aspect-square p-3 flex items-center justify-center">
-            <img src={FutureGeneral} />
+            <img src={FutureGeneral} alt='dummy' />
           </div>
         </div>
         <div className="mt-10 relative">
-          <img src={Ten} className=" w-full transform scale-75 "/>
+          <img src={Ten} alt='dummy' className=" w-full transform scale-75 "/>
           <div className="absolute top-[10%] left-[33%] ">
             <span className="text-[#FDD778] text-4xl mt-1 ">200Mn+</span>
             <br/>

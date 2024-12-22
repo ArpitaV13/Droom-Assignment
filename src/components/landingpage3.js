@@ -8,7 +8,7 @@ import Plant from '../images/Plant.svg';
 export default function Landingpage3() {
   return (
     <div className="bg-center relative w-full h-full text-white">   
-    <img src={Sky}
+    <img src={Sky} alt='dummy'
     />
     <div className='absolute top-0 w-full p-10 text-center bg-transparent'>
     <span className="text-5xl font-bold " style={{ color: "#FDD778" }}>
@@ -25,7 +25,7 @@ export default function Landingpage3() {
             <div className='card compact bg-[#084061] max-w-85 text-left text-xs bg-opacity-80 mt-8 text-white p-4'>
               <div className='flex flex-row'>  
                 <div className='p-3'>
-                  <img src={monitor} className='h-full w-full' />
+                  <img src={monitor} alt='dummy' className='h-full w-full' />
                 </div>
                 <div className='p-3'>
                   <h1 style={{color: "#FDD778" }}>India’s First Automobile Marketplace</h1>
@@ -34,7 +34,7 @@ export default function Landingpage3() {
               </div>
               <div className='flex flex-row'>  
                 <div className='p-3'>
-                  <img src={Plant} className='h-full w-full' />
+                  <img src={Plant} alt='dummy' className='h-full w-full' />
                 </div>
                 <div className='p-3'>
                   <h1 style={{color: "#FDD778" }}>$125 Million+ in Funding Raised</h1>
@@ -43,7 +43,7 @@ export default function Landingpage3() {
               </div>
               <div className='flex flex-row'>  
                 <div className='p-3'>
-                  <img src={Track} className='h-full w-full' />
+                  <img src={Track} alt='dummy' className='h-full w-full' />
                 </div>
                 <div className='p-3'>
                   <h1 style={{color: "#FDD778" }}>2 Track Days and Automotive Events</h1>
