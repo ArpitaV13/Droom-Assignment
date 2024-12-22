@@ -2,6 +2,8 @@ import React from 'react'
 import Sky from '../images/Sky.png'
 import monitor from '../images/monitor.svg';
 import Carousel from './corousel';
+import Track from '../images/Track.png';
+import Plant from '../images/Plant.svg';
 
 export default function Landingpage3() {
   return (
@@ -20,31 +22,31 @@ export default function Landingpage3() {
         <Carousel />
         <div>
             <h2 style={{ color: "#FDD778" }}>Top Highlights</h2>
-            <div className='card compact bg-[#084061] bg-opacity-80 text-white p-4'>
+            <div className='card compact bg-[#084061] max-w-85 text-left text-xs bg-opacity-80 mt-8 text-white p-4'>
               <div className='flex flex-row'>  
-                <div>
+                <div className='p-3'>
                   <img src={monitor} className='h-full w-full' />
                 </div>
-                <div>
-                  <h1>India’s First Automobile Marketplace</h1>
+                <div className='p-3'>
+                  <h1 style={{color: "#FDD778" }}>India’s First Automobile Marketplace</h1>
                   <p>Droom was the first to launch an online marketplace dedicated to buying and selling vehicles in India, transforming how people purchase automobiles and setting a new standard for transparency and convenience in the industry.</p>
                 </div>
               </div>
               <div className='flex flex-row'>  
-                <div>
-                  <img src={monitor} className='h-full w-full' />
+                <div className='p-3'>
+                  <img src={Plant} className='h-full w-full' />
                 </div>
-                <div>
-                  <h1>India’s First Automobile Marketplace</h1>
+                <div className='p-3'>
+                  <h1 style={{color: "#FDD778" }}>$125 Million+ in Funding Raised</h1>
                   <p>Droom was the first to launch an online marketplace dedicated to buying and selling vehicles in India, transforming how people purchase automobiles and setting a new standard for transparency and convenience in the industry.</p>
                 </div>
               </div>
               <div className='flex flex-row'>  
-                <div>
-                  <img src={monitor} className='h-full w-full' />
+                <div className='p-3'>
+                  <img src={Track} className='h-full w-full' />
                 </div>
-                <div>
-                  <h1>India’s First Automobile Marketplace</h1>
+                <div className='p-3'>
+                  <h1 style={{color: "#FDD778" }}>2 Track Days and Automotive Events</h1>
                   <p>Droom was the first to launch an online marketplace dedicated to buying and selling vehicles in India, transforming how people purchase automobiles and setting a new standard for transparency and convenience in the industry.</p>
                 </div>
               </div>
